@@ -14,5 +14,13 @@
   },
   "lint-staged": {
     "**/*": "prettier --ignore-path .prettierignore --ignore-unknown --write"
+  },
+  "dependencies": {
+    "fastify": "^4.21.0",
+    "prisma": "^5.1.1",
+    "react": "^18.2.0",
+    "react-router-dom": "^6.15.0",
+    "sqlite": "^5.0.1",
+    "tailwind": "^4.0.0"
   }
 }
